@@ -17,3 +17,21 @@
     color: #C58607;
     font-weight: 500;
 }
+.s-b {
+    font-weight: 500;
+}
+h2 {
+    color:#a11060;
+}
+h4 {
+    color: #431f66;
+    margin-top: 15px;
+}
+h5 {
+    color: #5c0a33;
+    margin-top: 15px;
+    text-align: center;
+}
+body {
+    background-color: #fffefa;
+}
