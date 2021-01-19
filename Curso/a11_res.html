@@ -24,7 +24,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">A1.1</a>
@@ -32,7 +32,7 @@
                             <li class="dropdown-item" href="#"><a class="dropdown-item" href="a11_cont.html">Contenido</a></li>
                             <li class="dropdown-item" href="#"><a class="dropdown-item" href="a11_res.html">Resumen</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li class="dropdown-item"><a class="dropdown-item" href="a11_ej.html">Ejemplos</a></li>                           
+                            <li class="dropdown-item"><a class="dropdown-item" href="a11_voc.html">Vocabulario</a></li>                           
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#">A1.2</a></li>
@@ -44,8 +44,19 @@
     </nav>
     <div class="container-lg">
         <h2>A1.1 Resumen</h2>
+        <!-- <div class="card text-dark bg-light col-6">
+            <div class="card-header">Contenido</div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="#nomen">Nomen</a></li>
+                    <li class="list-group-item"><a href="#artikel">Artikel</a></li>
+                    <li class="list-group-item"><a href="#verben">Verben</a></li>
+                </ul>
+            </div>
+        </div> -->
+        <!-- Pronombres id:nomen -->
         <div class="container-lg">       
-            <h4>Nomen (Pronombres)</h4>            
+            <h4 id="nomen">Nomen (Pronombres)</h4>            
             <div class="row justify-content-center">                
                 <div class="col-auto">
                     <h5>Artikel im Singular und Plural</h5>
@@ -160,8 +171,9 @@
                 </div>
             </div>        
         </div>
+        <!-- Artículos id:artikel -->
         <div class="container-lg">
-            <h4>Artikelwörter und Pronomen (Artículos y pronombres)</h4>
+            <h4 id="artikel">Artikelwörter und Pronomen (Artículos y pronombres)</h4>
             <div class="row justify-content-center">
                 <div class="col-auto">
                     <h5>Possessivartikel mein/dein (Posesivos)</h5>
@@ -236,8 +248,7 @@
                         <tbody>
                             <tr>
                                 <td rowspan="2" style="vertical-align: bottom;"><span class="s-m">maskulin</span></td>
-                                <td>Das ist...</td>
-                                <td></td>
+                                <td colspan="2">Das ist...</td>
                             </tr>
                             <tr>
                                 <td><span class="s-m">ein</span> Schlüssel</td>
@@ -258,8 +269,9 @@
                 </div>
             </div>
         </div>
+        <!-- Verbos id:verben -->
         <div class="container-lg">
-            <h4>Verben</h4>
+            <h4 id="verben">Verben (Verbos)</h4>
             <div class="row justify-content-center">
                 <div class="col-auto">
                     <h5>Kojugation Präsens: regelmäßige Verben</h5>
@@ -313,6 +325,245 @@
                         </tbody>
                     </table>
                     <p style="text-align: center; margin-top: 0px;">auch so: kommen, wohnen, leben...</p>
+                </div>
+                <div class="col-auto">
+                    <h5>Kojugation mit Vokalwechsel</h5>
+                    <p style="text-align: center;">(Conjugación con cambio de vocal)</p>
+                    <table class="table table-responsive table-bordered table-hover table-sm">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>sprechen <br><span class="s-b">(hablar)</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ich</td>
+                                <td>spreche</td>
+                            </tr>
+                            <tr>
+                                <td>du</td>
+                                <td>spr<b>i</b>chst</td>
+                            </tr>
+                            <tr>
+                                <td>er/sie</td>
+                                <td>spr<b>i</b>cht</td>
+                            </tr>
+                            <tr>
+                                <td>wir</td>
+                                <td>sprechen</td>
+                            </tr>
+                            <tr>
+                                <td>ihr</td>
+                                <td>sprecht</td>
+                            </tr>
+                            <tr>
+                                <td>sie/Sie</td>
+                                <td>sprechen</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-auto">
+                    <h5>Kojugation Präsens: besondere Verben</h5>
+                    <p style="text-align: center;">(Conjugación en presente de verbos especiales)</p>
+                    <table class="table table-responsive table-bordered table-hover table-sm">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>haben <br><span class="s-b">(tener)</span></th>
+                                <th>sein <br><span class="s-b">(ser/estar)</span></th>
+                                <th>mögen <br><span class="s-b">(gustar)</span></th>
+                                <th>"möchte" <br><span class="s-b">(gustaría)</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ich</td>
+                                <td>habe</td>
+                                <td>bin</td>
+                                <td>mag</td>
+                                <td>möchte</td>
+                            </tr>
+                            <tr>
+                                <td>du</td>
+                                <td>hast</td>
+                                <td>bist</td>
+                                <td>magst</td>
+                                <td>möchtest</td>
+                            </tr>
+                            <tr>
+                                <td>er/sie</td>
+                                <td>habt</td>
+                                <td>ist</td>
+                                <td>mag</td>
+                                <td>möchte</td>
+                            </tr>
+                            <tr>
+                                <td>wir</td>
+                                <td>haben</td>
+                                <td>sind</td>
+                                <td>mögen</td>
+                                <td>möchten</td>
+                            </tr>
+                            <tr>
+                                <td>ihr</td>
+                                <td>habt</td>
+                                <td>seid</td>
+                                <td>mögt</td>
+                                <td>möchtet</td>
+                            </tr>
+                            <tr>
+                                <td>sie/Sie</td>
+                                <td>haben</td>
+                                <td>sind</td>
+                                <td>mögen</td>
+                                <td>möchten</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-auto">
+                    <h5>Modalverb können: Konjugation</h5>
+                    <p style="text-align: center;">(Conjugación del modal können)</p>
+                    <table class="table table-responsive table-bordered table-hover table-sm">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>können <br><span class="s-b">(poder)</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ich</td>
+                                <td>kann</td>
+                            </tr>
+                            <tr>
+                                <td>du</td>
+                                <td>kannst</td>
+                            </tr>
+                            <tr>
+                                <td>er/sie</td>
+                                <td>kann</td>
+                            </tr>
+                            <tr>
+                                <td>wir</td>
+                                <td>können</td>
+                            </tr>
+                            <tr>
+                                <td>ihr</td>
+                                <td>könnt</td>
+                            </tr>
+                            <tr>
+                                <td>sie/Sie</td>
+                                <td>können</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-auto">
+                    <h5>trennbare Verben</h5>
+                    <p style="text-align: center;">(Verbos separables)</p>
+                    <table class="table table-responsive table-bordered table-hovered table-sm">
+                        <tbody>
+                            <tr>
+                                <td>an|rufen → <br>(llamar tel.)</td>
+                                <td>Ich <b>rufe</b> dich <b><i>an</i></b></td>
+                            </tr>
+                            <tr>
+                                <td>ein|kaufen → <br>(comprar)</td>
+                                <td>Veilleicht <b>kaufe</b> ich noch was <b><i>ein</i></b></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-auto">
+                    <h5>Perfekt mit haben</h5>
+                    <p style="text-align: center;">(Perfecto con haben)</p>
+                    <table class="table table-responsive table-bordered table-hover table-sm">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>haben +</th>
+                                <th>Partizip <br>...t</th>
+                                <th>&nbsp; <br>...en</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>regelmäßig <br>(regular)</td>
+                                <td>machen</td>
+                                <td class="s-b">er/es/sie <span class="text-danger">hat</span></td>
+                                <td class="s-b"><span class="text-danger">ge</span>mach<span class="text-danger">t</span></td>
+                                <td></td>
+                                <td><i>auch so:</i> sagen — gesagt, arbeiten — gearbeitet, ... </td>
+                            </tr>
+                            <tr>
+                                <td>unregelmäßig <br>(irregular)</td>
+                                <td>schreiben</td>
+                                <td class="s-b">er/es/sie <span class="text-danger">hat</span></td>
+                                <td></td>
+                                <td class="s-b"><span class="text-danger">ge</span>schr<span class="text-danger">ie</span>b<span class="text-danger">en</span></td>
+                                <td><i>auch so:</i> essen — gegessen, trinken — getrunken, ... </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">trennbare Verben <br>(separables)</td>
+                                <td><i>auf</i>|raümen</td>
+                                <td class="s-b">er/es/sie <span class="text-danger">hat</span></td>
+                                <td class="s-b">auf<span class="text-danger">ge</span>räum<span class="text-danger">t</span></td>
+                                <td></td>
+                                <td><i>auch so:</i> einkaufen — eingekauft, ...</td>
+                            </tr>
+                            <tr>
+                                <td><i>an</i>|rufen</td>
+                                <td class="s-b">er/es/sie <span class="text-danger">hat</span></td>
+                                <td></td>
+                                <td class="s-b">an<span class="text-danger">ge</span>ru<span class="text-danger">fen</span></td>
+                                <td><i>auch so:</i> einladen — eingeladen, fernsehen — ferngesehen, ...</td>
+                            </tr>
+                            <tr>
+                                <td>Verben auf <br>-ieren</br></td>
+                                <td>telefonieren</td>
+                                <td class="s-b">er/es/sie <span class="text-danger">hat</span></td>
+                                <td class="s-b">telefonier<span class="text-danger">t</span></td>
+                                <td></td>
+                                <td><i>auch so:</i> fotografieren — fotografiert, ...</td>                          
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-auto">
+                    <h5>Perfekt mit sein</h5>
+                    <p style="text-align: center;">(Perfecto con sein)</p>
+                    <table class="table table-responsive table-bordered table-hove table-sm">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>sein +</th>
+                                <th>Partizip ...en</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>unregelmäßig</td>
+                                <td>gehen</td>
+                                <td class="s-b">er/es/sie <span class="text-danger">ist</span></td>
+                                <td class="s-b"><span class="text-danger">ge</span>gang<span class="text-danger">en</span></td>
+                                <td><i>auch so:</i> fliegen — geflogen, fahren — gefahren, kommen — gekommen, ...</td>
+                            </tr>
+                            <tr>
+                                <td>trennbare <br>Verben</td>
+                                <td><i>an</i>|kommen</td>
+                                <td class="s-b">er/es/sie <span class="text-danger">ist</span></td>
+                                <td class="s-b">an<span class="text-danger">ge</span>komm<span class="text-danger">en</span></td>
+                                <td><i>auch so:</i> einsteigen — eingestiegen, abfahren — abgefahren, ...</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
