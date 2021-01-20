@@ -18,13 +18,13 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="img/logo.png" alt="logo" width="60" height="60">
-                Alemán 43
+                <span class="s-tt">Alemán 43</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 s-m">
                     <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">A1.1</a>
@@ -43,11 +43,19 @@
         </div>
     </nav>
     <!-- contenido -->
-    <div class="container-lg">
-        <h2>Willkommen zu unserem Kurs</h2>        
+    <div class="container-lg">               
         <div class="containter-lg">
+            <h2>Willkommen zu unserem Kurs</h2> 
+            <!-- Botón lección actual -->
+            <div class="row">
+                <div class="col text-center">
+                    <a href="a11_cont.html" class="btn btn-outline-dark" role="button"><span class="s-b">Lección actual: Akkusativ</span></a>
+                </div>
+            </div>           
+            <!-- Temario -->
             <div class="row">
                 <!-- Temario A1.1 -->
+                <h4>Temario</h4>
                 <div class="col-auto">
                     <div class="card ccard">
                         <div class="card-header s-b text-center">Temario A1.1</div>
@@ -110,7 +118,53 @@
                     </div>
                 </div>
             </div>
-        </div>  
+            <!-- Páginas útiles -->
+            <div class="row" style="margin-top: 10px;">
+                <h4>Páginas útiles</h4>
+                <div class="col-md-3 text-center">
+                    <figure class="figure">
+                        <a href="https://www.deepl.com/translator"><img src="https://www.deepl.com/img/logo/DeepL_Logo_darkBlue_v2.svg" alt="DeepL" height="60px"></a>                        
+                        <figcaption class="figure-caption s-bb">DeepL <br>Traductor (bueno para parrafos enteros).</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3 text-center">
+                    <figure class="figure">
+                        <a href="https://es.pons.com/traducci%C3%B3n/alem%C3%A1n-espa%C3%B1ol"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Pons-Verlag_Logo_2017.svg/1280px-Pons-Verlag_Logo_2017.svg.png" alt="PONS" height="60px"></a>                        
+                        <figcaption class="figure-caption s-bb">PONS <br>Diccionario (bueno para consultar género).</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3 text-center">
+                    <figure class="figure">
+                        <a href="https://conjugador.reverso.net/conjugacion-aleman.html"><img src="https://cdn.reverso.net/context/v54000/images/reverso180.png" alt="Reverso" height="60px"></a>
+                        <figcaption class="figure-caption s-bb">Reverso <br>Conjugador de verbos.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3 text-center">
+                    <figure class="figure">
+                        <a href="https://learngerman.dw.com/en/overview"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/1200px-Deutsche_Welle_symbol_2012.svg.png" alt="DW" height="60px"></a>
+                        <figcaption class="figure-caption s-bb">DW <br>Curso de alemán (Nicos Weg).</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- Canales de YouTube -->
+            <div class="row">
+                <h4 style="margin-top: 15px;">Canales de YouTube</h4>
+                <p>Cada uno de los canales te enseña alemán, con alguna particularidad.</p>
+                <div class="container-lg">
+                    <ul>
+                        <li><a href="https://www.youtube.com/user/AndyGMes">AndyGM:</a> Española en Alemania (videos en español y alemán).</li>
+                        <li><a href="https://www.youtube.com/channel/UCbxb2fqe9oNgglAoYqsYOtQ">Easy German: </a>Entrevistas en la calle a alemanes (Videos en alemán con subtítulos o inglés).</li>
+                        <li><a href="https://www.youtube.com/channel/UCZwegPHTG4gvnR0WLzaq5OQ">Learn German with Anja:</a> Alemana con la voz un poco chillona (Videos en alemán-inglés).</li>
+                        <li><a href="https://www.youtube.com/channel/UClBrbJXNh2sFxOuvH4o5H9g">lingoni GERMAN:</a> Canal muy completo, la tipa también sabe español (videos en alemán).</li>
+                        <li><a href="https://www.youtube.com/channel/UCXQtWe9386khJaGivyO-c-w">Linsgter Academy: </a>Es muy gráfica (videos en alemán con subtítulos en diferentes idiomas).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-lg text-center" style="margin-top: 30px;">
+            <p><a href="index.html">Back to top</a></p>
+        </div>
     </div>
     <!-- Separate Popper and Bootstrap JS -->
     
