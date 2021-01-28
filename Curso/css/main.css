@@ -1,3 +1,23 @@
+body {
+    background-color: #fffefa;
+}
+h2 {
+    color:#ab164d;
+}
+h3 {
+    color: #04556e;
+    margin-top: 15px;
+}
+h4 {
+    color: #8607a0;
+    margin-top: 15px;
+}
+h5 {
+    color: #5c0a33;
+    margin-top: 15px;
+    text-align: center;
+}
+
 .bg-nav {
     background-color: #fcefdc;
 }
@@ -24,21 +44,7 @@
     color: black;
     font-weight: 500;
 }
-h2 {
-    color:#a11060;
-}
-h4 {
-    color: #8607a0;
-    margin-top: 15px;
-}
-h5 {
-    color: #5c0a33;
-    margin-top: 15px;
-    text-align: center;
-}
-body {
-    background-color: #fffefa;
-}
+
 .ccard {
     background-color: #f0f3ff;
 }
@@ -62,4 +68,24 @@ a {
 .s-neg {
     color:#d11340;
     font-weight: 500;
+}
+
+.s-nom {
+    color: #0D98BA;
+    font-weight: 500;
+}
+.s-akk {
+    color: #ba1aba;
+    font-weight: 500;
+}
+.s-dat {
+    color: #F5C414;
+    font-weight: 500;
+}
+.s-gen {
+    color: #ED6A5A;
+    font-weight: 500;
+}
+.ejemplo {
+    margin-left: 20px;
 }

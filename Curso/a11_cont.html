@@ -43,17 +43,130 @@
         </div>
     </nav>
     <div class="container-lg">
-        <h2>Casos gramaticales</h2>
-        <h3>Acusativo</h3>
-        <p>El acusativo es uno de los 4 casos gramaticales del alemán. Los casos son nominativo, acusativo, dativo y genitivo. El caso  que hemos estudiado hasta ahora es el nominativo, que es generalmente el sujeto en una oración.
-            <br>El acusativo corresponde al objeto directo de una oración. Pero, ¿qué es el objeto directo de una oración?
-            <br>La estructura general de una oración consiste de sujeto + predicado, donde el predicado contiene un verbo predicativo y un objeto (objeto directo + indirecto)
-        </p>
-        <ul>
-            <li>Das Madchen sucht das Kind</li>
-            <li>Das Madchen sucht die Frau</li>
-            <li>Das Madchen sucht den Mann</li>
-        </ul>
+        <h3 id="akkusativ">Casos gramaticales: Akkusativ</h3>
+        <div class="row">
+            <p>El alemán posee cuatro casos: <i>el nominativo, el acusativo, el dativo y el genitivo.</i> Estos se identifican por las terminaciones (llamadas <strong>declinaciones</strong>) que se aplican a los <mark>artículos</mark> y <mark>adjetivos</mark> que preceden un <strong>sustantivo</strong>.</p>
+            <p>El caso <span class="s-nom">nominativo</span> se refiere al sujeto de una oración, generalmente se ubica antes del verbo:</p>
+            <p class="ejemplo"><span class="s-nom">Der Mann</span> sucht seinen Schlüssel <br><small>El hombre busca sus llaves</small></p>
+            <p>Muchos verbos necesitan un objeto que complete la frase de <span class="s-b">manera significativa</span>. Este objeto suele estar en forma <span class="s-akk">acusativa</span>.</p>
+            <p class="ejemplo">Der Mann sucht <span class="s-akk">seinen Schlüssel</span> <br><small>El hombre busca sus llaves</small>
+            <p class="ejemplo">Nico öffnet <span class="s-akk">die Tür</span><br><small>Nico abre la puerta</small></p> 
+            <p class="ejemplo">Inge bereitet <span class="s-akk">das Mittagessen</span> vor <br><small>Inge prepara el almuerzo</small></p>  
+            <p>Ejemplos de verbos que requieren de un objeto acusativo (o directo):
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <ul class="list-unstyled">
+                        <li>haben - tener</li>
+                        <li>lernen - aprender</li>
+                        <li>brauchen - necesitar</li>
+                        <li>anrufen - llamar por tel.</li>
+                        <li>essen - comer</li>
+                        <li>trinken - beber</li>
+                        <li>nehmen - tomar (take)</li>
+                        <li>suchen - buscar</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <ul class="list-unstyled">
+                        <li>machen - hacer</li>
+                        <li>lieben - amar</li>
+                        <li>hassen - odiar</li>
+                        <li>besuchen - visitar</li>
+                        <li>besichtigen - inspeccionar</li>
+                        <li>bestellen - pedir/encargar</li>
+                        <li>bekommen - convertirse</li>
+                        <li>mögen - gustar/querer</li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <ul class="list-unstyled">
+                        <li>pützen - limpiar</li>
+                        <li>kontrollieren - controlar</li>
+                        <li>vorbereiten - preparar</li>
+                        <li>waschen - lavar</li>
+                        <li>öffnen - abrir</li>
+                        <li>schließen -cerrar</li>
+                        <li>kennen - conocer</li>
+                        <li>reparieren - reparar</li>
+                    </ul>
+                </div>
+            </div>
+            <p>Pero, ¿qué implica que un verbo tenga un objeto acusativo? Como se indicó anteriormente, cada caso cambia la forma en que terminan los <mark>artículos</mark> y <mark>adjetivos</mark> que acompañan el sustantivo (además de modificar los pronombres). En el caso acusativo, se modifica el artículo para los sustantivos de género <span class="s-m">masculino</span>.</p>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <table class="table table-responsive table-bordered table-sm table-hover">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th class="s-nom">Nominativ</th>
+                                <th class="s-akk">Akkusativ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="s-m align-middle">maskulin</td>
+                                <td class="text-center">der <br>ein <br>kein</td>
+                                <td class="text-center">de<span class="s-b">n</span> <br>ein<span class="s-b">en</span> <br> kein<span class="s-b">en</span></td>
+                            </tr>
+                            <tr>
+                                <td class="s-f align-middle">feminin</td>
+                                <td class="text-center">die <br>eine <br>keine</td>
+                                <td class="text-center">die <br>eine <br>keine</td>
+                            </tr>
+                            <tr>
+                                <td class="s-n align-middle">neutral</td>
+                                <td class="text-center">das <br>ein <br>kein</td>
+                                <td class="text-center">das <br>ein <br>kein</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <p>Como ejemplo vamos a construir algunas oraciones: <br>&nbsp; <br><i>Los niños quieren al perro</i></p>
+            <div class="ejemplo">
+                <ul class="list-unstyled">
+                    <li><i>El niño</i> - <span class="s-n">das Kind</span> y su plural <i>los niños</i> - <span class="s-p">die Kinder</span>.</li>
+                    <li>El verbo <i>querer/amar</i> - <span class="s-b">lieben</span> que requiere de un objeto para que la oración tenga significado completo.</li>
+                    <li><i>El perro</i> - <span class="s-m">der Hund</span> que al ser el objeto acusativo y tener género masculino cambia su artículo a <span class="s-m"></span>den Hund</span>.</li>
+                </ul>                
+                <p class="text-center"><span class="s-nom">Die Kinder</span> liebt <span class="s-akk">den Hund</span></p>
+            </div>
+            <p><i>Mi madre compra el pan</i></p>
+            <div class="ejemplo">
+                <ul class="list-unstyled">
+                    <li><i>Mi madre</i> - <span class="s-f">meine Mutter</span>.</li>
+                    <li>El verbo <i>comprar</i> - <span class="s-b">kaufen</span> que requiere de un objeto para que la oración tenga significado completo.</li>
+                    <li><i>El pan</i> - <span class="s-n">das Brot</span> es el objeto acusativo, pero como su género es neutro no cambia su artículo.</li>
+                </ul>
+                <p class="text-center"><span class="s-nom">Meine Mutter</span> kauft <span class="s-akk">das Brot</span></p>
+            </div>
+            <p><i>Tu hermana visita a mi abuelo</i></p>
+            <div class="ejemplo">
+                <ul class="list-unstyled">
+                    <li><i>Tu hermana</i> - <span class="s-n">deine Schwester</span>.</li>
+                    <li>El verbo <i>visitar</i> - <span class="s-b">besuchen</span> que requiere de un objeto para que la oración tenga significado completo.</li>
+                    <li><i>Mi abuelo</i> - <span class="s-m">mein Großvater</span> que al ser el objeto acusativo y tener género masculino cambia su artículo a <span class="s-m"></span>meinen Großvater</span>.</li>
+                </ul>                
+                <p class="text-center"><span class="s-nom">Deine Schwester</span> besucht <span class="s-akk">meinen Großvater</span></p>
+            </div>
+            <p><i>¿Conoces al profesor?</i></p>
+            <div class="ejemplo">
+                <ul class="list-unstyled">
+                    <li>El verbo <i>conocer</i> - <span class="s-b">kennen</span> que requiere de un objeto</li>
+                    <li><i>El profesor</i> - <span class="s-m">der Lehrer</span> que al ser el objeto acusativo cambia su artículo a <span class="s-m">den Lehrer</span></li>
+                    <li>Recordar que el ser un Ja-/Nein- Frage (pregunta de sí/no), se ubica primero el verbo y luego el sujeto.</li>
+                </ul>
+                <p class="text-center">Kennst <span class="s-nom">du</span> <span class="s-akk">den Lehrer</span>?</p>
+            </div>
+            <p><i>Ella no toma un jugo de naranja</i></p>
+            <div class="ejemplo">
+                <ul class="list-unstyled">
+                    <li>El verbo <i>beber/tomar</i> - <span class="s-b">trinken</span> que requiere de un objeto</li>
+                    <li><i>Un jugo de naranja</i> - <span class="s-m">ein Orangensaft</span> que al ser el objeto acusativo cambia su artículo a <span class="s-m">einen Orangensaft</span></li>                    
+                </ul>
+                <p class="text-center"><span class="s-nom">Sie</span> trinkt <span class="s-akk">keinen Orangensaft</span>.</p>
+            </div>
+        </div>
     </div>
     <!-- Separate Popper and Bootstrap JS -->
     
