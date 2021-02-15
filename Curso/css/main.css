@@ -93,3 +93,23 @@ a {
     color: #cf0e7b;
     font-weight: 500;
 }
+input {
+    /* width:300px; */
+    margin-bottom:5px;
+    line-height:18px;
+    padding:2px 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #CCC;
+}
+.input-s {
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.input-m {
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
